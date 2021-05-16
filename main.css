@@ -23,7 +23,7 @@
   --footerLinkHover: #333333;
   --footerBorder: #fcfcfc;
 
-  --bgHome: url('img/idk2.png');
+  --bgHome: url('./img/idk2.png');
 }
 
 *, ::before, ::after {

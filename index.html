@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
 <head>
@@ -161,6 +162,16 @@
         </div>
     </div>
 </footer>
+
+<script>
+var currentProducts = 0;
+$(document).ready(function(){
+  $(".shop-productBtn").click(function(){
+	currentProducts++;
+	$(".cart-num").text(currentProducts);
+  });
+});
+</script>
 
 </body>
 </html>
